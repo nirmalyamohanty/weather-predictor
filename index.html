@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Predictor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Weather<span class="highlight">Now</span></h1>
+            <p>Get accurate weather predictions for your location</p>
+        </header>
+
+        <main>
+            <div id="weather-card" class="weather-card hidden">
+                <div class="weather-header">
+                    <h2 id="location-text">Loading Location...</h2>
+                    <p id="date-text"></p>
+                </div>
+
+                <div class="weather-body">
+                    <div class="temp-container">
+                        <span id="temperature" class="temperature">--</span>
+                        <span class="unit">°C</span>
+                    </div>
+                    <div class="condition-container">
+                        <div id="weather-icon" class="weather-icon"></div>
+                        <p id="condition-text">--</p>
+                    </div>
+                </div>
+
+                <div class="weather-details">
+                    <div class="detail-item">
+                        <span class="label">Wind Speed</span>
+                        <span id="wind-speed" class="value">-- km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">Wind Direction</span>
+                        <span id="wind-dir" class="value">--°</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="error-message" class="error-message hidden">
+                <p>⚠️ <span id="error-text"></span></p>
+            </div>
+
+            <button id="get-weather-btn" class="action-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12V7a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v5" />
+                    <path d="M3 12a9 9 0 0 0 15 6.7L22 14" />
+                    <path d="M12 2v2" />
+                    <path d="M12 20v2" />
+                    <path d="m4.93 4.93 1.41 1.41" />
+                    <path d="m17.66 17.66 1.41 1.41" />
+                    <path d="m19.07 4.93-1.41 1.41" />
+                    <path d="m6.34 17.66-1.41 1.41" />
+                </svg>
+                Get Current Weather
+            </button>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
