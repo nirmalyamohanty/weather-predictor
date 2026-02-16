@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://resplendent-souffle-214591.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🚀 Live Demo-Click Here-00C853?style=for-the-badge" />
+  <a href="https://weathern0ow.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀 Live Demo-Open App-00C853?style=for-the-badge" />
   </a>
 </p>
 
@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/API-OpenMeteo-green?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge"/>
 </p>
 
 ---
