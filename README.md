@@ -7,6 +7,12 @@
 </p>
 
 <p align="center">
+  <a href="https://resplendent-souffle-214591.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀 Live Demo-Click Here-00C853?style=for-the-badge" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/JavaScript-Vanilla-yellow?style=for-the-badge"/>
