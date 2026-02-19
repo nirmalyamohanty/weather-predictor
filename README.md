@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://weathern0ow.netlify.app/" target="_blank">
+  <a href="https://weathern0w.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/🚀 Live Demo-Open App-00C853?style=for-the-badge" />
   </a>
 </p>
@@ -119,8 +119,6 @@ open index.html
 ```
 
 Allow location permission when prompted.
-
----
 
 ### 🔹 Method 2 — VS Code Live Server
 
